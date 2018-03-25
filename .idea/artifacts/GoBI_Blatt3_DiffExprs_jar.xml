@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GoBI-Blatt3_DiffExprs:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GoBI_Blatt3_DiffExprs_jar</output-path>
+    <root id="archive" name="GoBI-Blatt3.jar">
+      <element id="module-output" name="GoBI-Blatt3-DiffExprs" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src" />
+    </root>
+  </artifact>
+</component>
