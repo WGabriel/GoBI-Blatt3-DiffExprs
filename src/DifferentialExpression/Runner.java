@@ -64,11 +64,11 @@ public class Runner {
         String rCom = "\"" + config.values.get("rscript").getAbsolutePath() + "\" \"" + config.values.get("diffscript").getAbsolutePath()
                 + "\" \"" + exprs.getAbsolutePath() + "\" \"" + p_data.getAbsolutePath() + "\" \"" + f_data.getAbsolutePath() + "\" ";
 //        // DESeq.out
-//        R_plotting.runRscript((rCom + "DESeq \"" + deSeq.getAbsolutePath() + "\"").replace("\\", "/"));
+        R_plotting.runRscript((rCom + "DESeq \"" + deSeq.getAbsolutePath() + "\"").replace("\\", "/"));
 //        // edgeR.out
-//        R_plotting.runRscript((rCom + "edgeR \"" + edgeR.getAbsolutePath() + "\"").replace("\\", "/"));
+        R_plotting.runRscript((rCom + "edgeR \"" + edgeR.getAbsolutePath() + "\"").replace("\\", "/"));
 //        // limma.out
-//        R_plotting.runRscript((rCom + "limma \"" + limma.getAbsolutePath() + "\"").replace("\\", "/"));
+        R_plotting.runRscript((rCom + "limma \"" + limma.getAbsolutePath() + "\"").replace("\\", "/"));
 
         addBenjaminiCorrection(deSeq);
         addBenjaminiCorrection(edgeR);
